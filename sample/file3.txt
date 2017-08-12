@@ -1,0 +1,6 @@
+@startuml
+[*] --> Running: Start
+Running --> Pause: Pause
+Pause --> Running: Resume
+Running --> [*]: Stop
+@enduml

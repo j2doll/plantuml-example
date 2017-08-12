@@ -1,0 +1,7 @@
+@startuml
+class Class01 {
+  String data
+  void methods()
+}
+Class01 <|-- Class02
+@enduml

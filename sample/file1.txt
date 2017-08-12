@@ -1,0 +1,4 @@
+@startuml 
+Alice -> Bob: 인증 요청
+Alice <- Bob: Authentication Response 
+@enduml
