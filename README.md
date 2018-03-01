@@ -1,7 +1,7 @@
-# PlantUML-sample-example
-PlantUML sample/example
-## About
-http://plantuml.com/
-<br />
-https://www.patreon.com/plantuml
+# Sample(example) of PlantUML 
+- PlantUML sample/example
+# PlantUML
+- http://plantuml.com/
+- https://www.patreon.com/plantuml
+
 
