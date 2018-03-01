@@ -5,6 +5,7 @@
 - https://www.patreon.com/plantuml
 # Sample
 - ![](sample/file1.png)
+- (code/example.file1.txt)
 - ![](sample/file2.png)
 - ![](sample/file3.png)
 - ![](sample/file4.png)
