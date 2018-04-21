@@ -5,6 +5,12 @@
 - https://www.patreon.com/plantuml
 # Sample
 - ![](sample/file1.png)
+```startuml
+@startuml 
+Alice -> Bob: 인증 요청
+Alice <- Bob: Authentication Response 
+@enduml
+```
 - ![](sample/file2.png)
 - ![](sample/file3.png)
 - ![](sample/file4.png)
