@@ -1,18 +1,28 @@
 # Sample(example) of PlantUML 
 - PlantUML sample/example
-# PlantUML
+
+## PlantUML
 - http://plantuml.com/
 - https://www.patreon.com/plantuml
-# Sample
-- ![](sample/file1.png)
-```
+
+## Sample
+
+### file1
+
+![](sample/file1.png)
+
+```plantuml
 @startuml 
 Alice -> Bob: 인증 요청
 Alice <- Bob: Authentication Response 
 @enduml
 ```
-- ![](sample/file2.png)
-```
+
+### file2
+
+![](sample/file2.png)
+
+```plantuml
 @startuml
 class Class01 {
   String data
@@ -21,8 +31,12 @@ class Class01 {
 Class01 <|-- Class02
 @enduml
 ```
-- ![](sample/file3.png)
-```
+
+### file3
+
+![](sample/file3.png)
+
+```plantuml
 @startuml
 [*] --> Running: Start
 Running --> Pause: Pause
@@ -30,8 +44,12 @@ Pause --> Running: Resume
 Running --> [*]: Stop
 @enduml
 ```
-- ![](sample/file4.png)
-```
+
+### file4
+
+![](sample/file4.png)
+
+```plantuml
 @startuml
 actor Foo1
 boundary Foo2
@@ -46,8 +64,12 @@ Foo1 -> Foo5 : To database
 Foo1 -> Foo6 : To collections
 @enduml
 ```
-- ![](sample/file5.png)
-```
+
+### file5
+
+![](sample/file5.png)
+
+```plantuml
 @startuml
 actor Bob #red
 ' The only difference between actor
@@ -63,14 +85,22 @@ Bob->Alice: Authentication Response
 Bob->L: Log transaction
 @enduml
 ```
-- ![](sample/file6.png)
-```
+
+### file6
+
+![](sample/file6.png)
+
+```plantuml
 @startuml
 Alice->Alice: This is a signal to self.\nIt also demonstrates\nmultiline \ntext
 @enduml
 ```
-- ![](sample/file7.png)
-```
+
+### file7
+
+![](sample/file7.png)
+
+```plantuml
 @startuml
 Bob ->x Alice
 Bob -> Alice
@@ -86,8 +116,12 @@ Bob <-> Alice
 Bob <->o Alice
 @enduml
 ```
-- ![](sample/file8.png)
-```
+
+### file8
+
+![](sample/file8.png)
+
+```plantuml
 @startuml
 autonumber 10 10 "<b>[000]"
 Bob -> Alice : Authentication Request
@@ -108,8 +142,12 @@ Bob -> Alice : Yet another authentication Request
 Bob <- Alice : Yet another authentication Response
 @enduml
 ```
-- ![](sample/file9.png)
-```
+
+### file9
+
+![](sample/file9.png)
+
+```plantuml
 @startuml
 Alice -> Bob: Authentication Request
 
@@ -135,8 +173,12 @@ else Another type of failure
 end
 @enduml
 ```
-- ![](sample/fileA.png)
-```
+
+### fileA
+
+![](sample/fileA.png)
+
+```plantuml
 @startuml
 Alice->Bob : hello
 note left: this is a first note
@@ -152,8 +194,12 @@ note left
 end note
 @enduml
 ```
-- ![](sample/fileB.png)
-```
+
+### fileB
+
+![](sample/fileB.png)
+
+```plantuml
 @startuml
 
 == Initialization ==
@@ -168,8 +214,12 @@ Alice <-- Bob: another authentication Response
 
 @enduml
 ```
-- ![](sample/fileC.png)
-```
+
+### fileC
+
+![](sample/fileC.png)
+
+```plantuml
 @startuml
 participant Alice
 actor Bob
